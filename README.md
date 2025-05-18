@@ -2,6 +2,21 @@
 
 A demonstration of multimodal classification using CLIP embeddings, spatial grid references, and fusion strategies.
 
+## TODO
+1. convert grid_reference to UK projection system location
+2. embed location
+```python
+location_tokens = clip.tokenize([titles.loc[img_id]]).to(device)
+with torch.no_grad():
+   feat_location = model.encode_text(location_tokens)
+feat_location = feat_location.squeeze(0).cpu().detach()
+}
+```
+3. experiment with
+  - Concatenation + MLP
+  - Branch MLP + Sum + Normalize
+
+
 ## 🔍 Tags (49)
 We predict 49 multi-hot tags for each image. See `tags-top.csv` for the full list of human-readable tag names.
 
@@ -10,6 +25,7 @@ We predict 49 multi-hot tags for each image. See `tags-top.csv` for the full lis
 - **Text**: image `title` (caption).  
 - **Location**: OS grid reference → projected into UK coordinates (2D normalized lat/lon or 3D sphere).  
 - **Excluded**: satellite imagery, street-view, user IDs, or real names.
+
 
 ## 🔗 Fusion Strategies
 Two primary fusion methods:
