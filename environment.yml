@@ -1,0 +1,19 @@
+name: clip-the-landscape
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11.5
+  - pandas=2.2.2
+  - geopandas=1.0.1
+  - jupyterlab
+  - pip
+  - pip:
+    - torch
+    - torchvision
+    - ftfy
+    - regex
+    - tqdm==4.66.2
+    - git+https://github.com/openai/CLIP.git
+    - matplotlib==3.8.2
+    - Pillow==10.1.0
+    - wordcloud==1.9.4
