@@ -12,7 +12,9 @@ This repo contains our CLIP-based, multi-modal classifiers for the Kaggle 'Predi
 
 📃 Our pre-print is available on arXiv [TODO link].
 
-✍️ Authors: [Ilya Ilyankou](https://ilyankou.com), [Natchapon Jongwiriyanurak](https://profiles.ucl.ac.uk/79254-natchapon-jongwiriyanurak), Tao Cheng, and James Haworth
+✍️ Authors: [Ilya Ilyankou](https://ilyankou.com)\*, [Natchapon Jongwiriyanurak](https://profiles.ucl.ac.uk/79254-natchapon-jongwiriyanurak)\*, Tao Cheng, and James Haworth
+
+*Equal contribution
 
 ## Setup
 
@@ -28,7 +30,7 @@ conda env create -f environment.yml
 # Activate that new virtual environment
 conda activate clip-the-landscape
 
-# Run Jupyter (will open in your default browser)
+# Run Jupyter (will open in your default browser) or use VSCode instead
 jupyter lab
 ```
 

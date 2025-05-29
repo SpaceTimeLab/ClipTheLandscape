@@ -5,6 +5,5 @@ splits
 test_images
 train_images
 kaggle_data/metadata.csv
-kaggle_data/metadata-extra.csv
 kaggle_data/train.csv
 embeds
