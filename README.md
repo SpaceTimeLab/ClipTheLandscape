@@ -1,6 +1,6 @@
 # CLIP the Landscape: Automated Tagging of Crowdsourced Landscape Images
 
-[![arXiv](https://img.shields.io/badge/arXiv_preprint-TODO-green)](TODO)
+[![arXiv](https://img.shields.io/badge/arXiv_preprint-arXiv-green)](https://arxiv.org/pdf/2506.12214)
 [![Kaggle](https://img.shields.io/badge/Kaggle-View%20challenge-blue)](https://www.kaggle.com/competitions/predict-geographic-context-from-landscape-photos/)
 
 
@@ -10,7 +10,7 @@ This repo contains our CLIP-based, multi-modal classifiers for the Kaggle 'Predi
 * Train MLP and linear classifiers on CLIP image, title and location embeddings (alone or in combination)
 * Evaluate model performance and generate Kaggle-ready submission files (.csv.zip)
 
-📃 Our pre-print is available on arXiv [TODO link].
+📃 Our pre-print is available on arXiv [https://arxiv.org/pdf/2506.12214].
 
 ✍️ Authors: [Ilya Ilyankou](https://ilyankou.com)\*, [Natchapon Jongwiriyanurak](https://profiles.ucl.ac.uk/79254-natchapon-jongwiriyanurak)\*, Tao Cheng, and James Haworth
 
@@ -41,5 +41,14 @@ This section illustrates the subjectivity of labelling; our model's predicted ta
 ![Misclassified images](figures/misclassified.jpg)
 
 # Cite
-
-TODO
+```
+@misc{ilyankou2025cliplandscapeautomatedtagging,
+      title={CLIP the Landscape: Automated Tagging of Crowdsourced Landscape Images}, 
+      author={Ilya Ilyankou and Natchapon Jongwiriyanurak and Tao Cheng and James Haworth},
+      year={2025},
+      eprint={2506.12214},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2506.12214}, 
+}
+```
