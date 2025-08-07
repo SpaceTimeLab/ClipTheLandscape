@@ -52,3 +52,7 @@ This section illustrates the subjectivity of labelling; our model's predicted ta
       url={https://arxiv.org/abs/2506.12214}, 
 }
 ```
+
+# License
+
+The code is released under the MIT license. The Geograph images are available under the CC-BY-SA 2.0 license.
