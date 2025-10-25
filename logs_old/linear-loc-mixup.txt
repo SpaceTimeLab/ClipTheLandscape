@@ -1,0 +1,12 @@
+Epoch 00 	 train_loss 0.6381 	 val_acc 0.0000 	 macro_f1 0.0044
+Epoch 01 	 train_loss 0.4418 	 val_acc 0.0000 	 macro_f1 0.0000
+Epoch 02 	 train_loss 0.3290 	 val_acc 0.0000 	 macro_f1 0.0000
+Epoch 03 	 train_loss 0.2643 	 val_acc 0.0000 	 macro_f1 0.0000
+Epoch 04 	 train_loss 0.2262 	 val_acc 0.0000 	 macro_f1 0.0000
+Epoch 05 	 train_loss 0.2027 	 val_acc 0.0000 	 macro_f1 0.0000
+Epoch 06 	 train_loss 0.1879 	 val_acc 0.0000 	 macro_f1 0.0000
+Epoch 07 	 train_loss 0.1782 	 val_acc 0.0000 	 macro_f1 0.0000
+Epoch 08 	 train_loss 0.1718 	 val_acc 0.0000 	 macro_f1 0.0000
+Epoch 09 	 train_loss 0.1673 	 val_acc 0.0000 	 macro_f1 0.0000
+======
+Best epoch 09 	 val_acc 0.0000 	 macro_f1 0.0000
