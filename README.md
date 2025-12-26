@@ -1,6 +1,6 @@
 # CLIP the Landscape: Automated Tagging of Crowdsourced Landscape Images
 
-[![doi](https://img.shields.io/badge/https://doi.org/-10.1016/j.rsase.2025.101824-green)](https://doi.org/10.1016/j.rsase.2025.101824)
+[![doi](https://img.shields.io/badge/Journal_article-10.1016/j.rsase.2025.101824-green)](https://doi.org/10.1016/j.rsase.2025.101824)
 [![arXiv](https://img.shields.io/badge/arXiv_preprint-2506.12214-silver)](https://arxiv.org/pdf/2506.12214)
 [![Kaggle](https://img.shields.io/badge/Kaggle-View%20challenge-blue)](https://www.kaggle.com/competitions/predict-geographic-context-from-landscape-photos/)
 
