@@ -1,6 +1,7 @@
 # CLIP the Landscape: Automated Tagging of Crowdsourced Landscape Images
 
-[![arXiv](https://img.shields.io/badge/arXiv_preprint-2506.12214-green)](https://arxiv.org/pdf/2506.12214)
+[![doi](https://img.shields.io/badge/https://doi.org/-10.1016/j.rsase.2025.101824-green)](https://doi.org/10.1016/j.rsase.2025.101824)
+[![arXiv](https://img.shields.io/badge/arXiv_preprint-2506.12214-silver)](https://arxiv.org/pdf/2506.12214)
 [![Kaggle](https://img.shields.io/badge/Kaggle-View%20challenge-blue)](https://www.kaggle.com/competitions/predict-geographic-context-from-landscape-photos/)
 
 
@@ -10,7 +11,9 @@ This repo contains our CLIP-based, multi-modal classifiers for the Kaggle 'Predi
 * Train MLP and linear classifiers on CLIP image, title and location embeddings (alone or in combination)
 * Evaluate model performance and generate Kaggle-ready submission files (.csv.zip)
 
-📃 Our pre-print is available on arXiv [https://arxiv.org/pdf/2506.12214].
+🖼️ The paper is published in Remote Sensing Applications: Society and Environment [https://doi.org/10.1016/j.rsase.2025.101824].
+
+📃 The preprint is available on arXiv [https://arxiv.org/pdf/2506.12214].
 
 ✍️ Authors: [Ilya Ilyankou](https://ilyankou.com)\*, [Natchapon Jongwiriyanurak](https://profiles.ucl.ac.uk/79254-natchapon-jongwiriyanurak)\*, Tao Cheng, and James Haworth
 
@@ -42,14 +45,16 @@ This section illustrates the subjectivity of labelling; our model's predicted ta
 
 # Cite
 ```
-@misc{ilyankou2025cliplandscapeautomatedtagging,
-      title={CLIP the Landscape: Automated Tagging of Crowdsourced Landscape Images}, 
-      author={Ilya Ilyankou and Natchapon Jongwiriyanurak and Tao Cheng and James Haworth},
-      year={2025},
-      eprint={2506.12214},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2506.12214}, 
+@article{clip-the-landscape,
+      title = {CLIP the landscape: Automated tagging of crowdsourced landscape images},
+      journal = {Remote Sensing Applications: Society and Environment},
+      volume = {41},
+      pages = {101824},
+      year = {2026},
+      issn = {2352-9385},
+      doi = {https://doi.org/10.1016/j.rsase.2025.101824},
+      url = {https://www.sciencedirect.com/science/article/pii/S2352938525003775},
+      author = {Ilya Ilyankou and Natchapon Jongwiriyanurak and Tao Cheng and James Haworth}
 }
 ```
 
